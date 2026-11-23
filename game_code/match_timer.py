@@ -6,8 +6,8 @@ from game_code.countdown import render_outlined, pop_in
 class MatchTimer:
     # (duration in seconds, popup lines shown when the phase starts). The last phase never ends.
     PHASES = [
-        (60.0, None),
-        (30.0, ("SUDDEN", "DEATH")),
+        (15.0, None),
+        (15.0, ("SUDDEN", "DEATH")),
         (None, ("SUDDENER", "DEATH")),
     ]
     POPUP_TIME = 1.5  # how long a phase popup stays on screen
